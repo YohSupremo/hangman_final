@@ -133,7 +133,9 @@ int main() {
 
                     cover(true);
                     center_padding(" Type '0' to return", true);
-                    cout << "\n" << setw(42) << "" << "Username: ";
+                    cout << "\n";
+                    center_padding(" Registration", false);
+                    cout << "\n\n" << setw(42) << "" << "Username: ";
                     getline(cin, username);
 
                     if (username.empty()) {
@@ -206,7 +208,9 @@ int main() {
 
                     cover(true);
                     center_padding(" Type '0' to return", true);
-                    cout << "\n" << setw(42) << "" << "Username: ";
+                    cout << "\n";
+                    center_padding(" Log In", false);
+                    cout << "\n\n" << setw(42) << "" << "Username: ";
                     getline(cin, username);
 
 
